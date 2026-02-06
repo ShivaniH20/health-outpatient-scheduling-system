@@ -10,7 +10,7 @@ This project provides a centralized digital solution where patients can book app
 
 **🧱 Project Structure**
 ---
-'''health-outpatient-scheduling-system/
+``` health-outpatient-scheduling-system/
 │
 ├── backend/
 │   ├── app.py                # Main backend application
@@ -48,7 +48,7 @@ Explains the project, flow, and usage.
 
 **🔄 System Flow (Flow Chart Explanation)**
 ---
-Here’s how the system works step-by-step:
+```Here’s how the system works step-by-step:
                            ┌─────────────────────────┐
                            │        DOCTOR            │
                            │  (Confirms / Updates     │
