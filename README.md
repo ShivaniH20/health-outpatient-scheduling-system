@@ -28,7 +28,7 @@ This project provides a centralized digital solution where patients can book app
 │
 ├── README.md                 # Project documentation
 └── requirements.txt          # Backend dependencies
-
+```
 🔍 Structure Explanation (In Simple Words)
 backend/
 
@@ -81,7 +81,7 @@ Explains the project, flow, and usage.
                           │     SENT TO PATIENT            │
                           └───────────────────────────────┘
 
-
+```
 
 **🌟 Flow Explanation**
 ---
