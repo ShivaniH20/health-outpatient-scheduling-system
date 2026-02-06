@@ -1,0 +1,5 @@
+
+{
+  "name": "SevaHealth - Outpatient Scheduling System",
+  "description": "A high-fidelity outpatient appointment scheduling system prototype designed for the Indian hospital ecosystem, featuring doctor search, slot management, and an architecture overview for EffectTS and Spring Boot parallel builds."
+}
