@@ -1,5 +1,5 @@
 **🏥 Health Outpatient Scheduling System**
-
+---
 An outpatient healthcare scheduling system designed to simplify appointment management between patients, doctors, and hospital staff.
 The system aims to reduce waiting time, avoid scheduling conflicts, and improve overall hospital workflow.
 
