@@ -10,7 +10,7 @@ This project provides a centralized digital solution where patients can book app
 
 **🧱 Project Structure**
 ---
-health-outpatient-scheduling-system/
+'''health-outpatient-scheduling-system/
 │
 ├── backend/
 │   ├── app.py                # Main backend application
@@ -49,12 +49,39 @@ Explains the project, flow, and usage.
 **🔄 System Flow (Flow Chart Explanation)**
 ---
 Here’s how the system works step-by-step:
+                           ┌─────────────────────────┐
+                           │        DOCTOR            │
+                           │  (Confirms / Updates     │
+                           │        Schedule)         │
+                           └───────────▲─────────────┘
+                                       │
+                                       │ Control Flow
+                                       │
+┌───────────────┐      Data Flow   ┌───────────────┐
+│   PATIENT     │ ───────────────▶│    SYSTEM     │
+│ (User Input)  │  Appointment    │ (Application) │
+└───────────────┘     Request     └───────┬───────┘
+                                          │
+                                          │
+                                 ┌────────▼────────┐
+                                 │  CHECK DOCTOR   │
+                                 │   AVAILABILITY  │
+                                 └────────┬────────┘
+                                          │
+                                          │
+                             ┌────────────▼────────────┐
+                             │        DATABASE          │
+                             │ (Patient, Doctor,        │
+                             │  Appointment Records)    │
+                             └────────────┬────────────┘
+                                          │
+                                          │
+                          ┌───────────────▼───────────────┐
+                          │     APPOINTMENT CONFIRMATION   │
+                          │     SENT TO PATIENT            │
+                          └───────────────────────────────┘
 
-Patient → Appointment Request → System
-System → Checks Doctor Availability
-Doctor → Confirms / Updates Schedule
-System → Stores Data in Database
-Patient → Receives Appointment Confirmation
+
 
 **🌟 Flow Explanation**
 ---
